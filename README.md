@@ -1,4 +1,23 @@
 # Descrição do Sistema
+
+## Aviso
+
+Este é um projeto da disciplina de engenharia de software 1 do qual eu e meus colegas desenvolvemos um site de gestão de projetos com backend (Spring boot), frontend (HTML, CSS e JavaScript) e banco de dados (MariaDB). Como este é um fork do projeto original, para ver mais informações sobre os outros membros do grupo acesse o link acima junto ao nome do projeto.
+
+## Sobre a Minha Participação nesse Projeto
+
+Nesse projeto eu atuei na parte do backend e fui responsável por desenvolver o diagrama do banco de dados utilizado. Esse projeto foi o meu primeiro contato com Spring boot, já tinha experiência com a linguagem de programação Java, mas tive que aprender do zero como funciona o Spring boot. Neste projeto, fui responsável pela:
+
+- Criação das classes entities que representam as tabelas do banco de dados.
+  
+- Criação das conexões entre as classes entities conforme o banco de dados.
+  
+- Criação das classes controller, que apresentam os caminhos URL utilizando o padrão REST para a realização de cada ação dentro do backend, e que foram essenciais para a conexão do banco de dados e do backend com o frontend.
+  
+- Criação das classes service, que são classes que contém as funcionalidades dos controllers, deixando assim as classes controllers mais simples e fáceis de entender.
+
+- Criação das classes repository, que são classes que realizam a conexão com o Spring para o uso de determinadas funções, que foram usadas nas classes service.
+
 ## Chain: Sistema de Gerenciamento de Projetos
 
 O Chain é uma plataforma completa projetada para otimizar a gestão de projetos e equipes de desenvolvimento de software. Inspirado na ideia de conectar pessoas como elos de uma corrente, o Chain oferece uma experiência intuitiva e eficiente para colaboração e organização.
